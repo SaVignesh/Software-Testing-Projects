@@ -66,5 +66,6 @@
 * testng.xml - TestNG configuration files that has list of test classes that need to be executed <br />
 
 #### You can also directly run the code from Github Folder in Jenkins:
-Make sure to have Maven integration installed in Jenkins and in build configuration setup Root POM path to be: RestAssured-Java-PetStoreAPI/pom.xml
+1. Make sure to have Maven integration installed in Jenkins
+2. In build configuration, set Root POM path to be: RestAssured-Java-PetStoreAPI/pom.xml
 ![image](https://github.com/SaVignesh/Software-Testing-Projects/assets/47379614/5e4023a7-99fd-4956-bf33-24669738ba70)
