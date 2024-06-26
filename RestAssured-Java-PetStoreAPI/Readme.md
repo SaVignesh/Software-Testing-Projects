@@ -65,5 +65,6 @@
 
 * testng.xml - TestNG configuration files that has list of test classes that need to be executed <br />
 
-#### You can also directly run the code from Github Folder in Jenkins using the Run.bat file:
-![jenkins nopCommerce pass](https://github.com/SaVignesh/nopCommerceAdmin/assets/47379614/83c3a795-ecec-4c18-ba5f-3dbe90b4f170)
+#### You can also directly run the code from Github Folder in Jenkins:
+Make sure to have Maven integration installed in Jenkins and in build configuration setup Root POM path to be: RestAssured-Java-PetStoreAPI/pom.xml
+![image](https://github.com/SaVignesh/Software-Testing-Projects/assets/47379614/5e4023a7-99fd-4956-bf33-24669738ba70)
