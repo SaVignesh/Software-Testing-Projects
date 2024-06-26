@@ -6,7 +6,7 @@
 
 
 
-1. Java
+1. Java JDK
 2. RestAssured: - RestAssured libraries 
 3. TestNG : - TestNG Framework
 4. Maven: - Java Build Management
@@ -15,13 +15,14 @@
 
 ### What framework offers 
 * Command line execution (No IDE required)
+* Data Driven Testing using data from Excel files
 *	Custom logger
 *	HTML reports 
 *	All test cases can be run using pom.xml
 
 ### Folder structure
 * Package: - Contains Java classes
-* Folder: - Images, log files, etc.
+* Folder: - Reports, log files, etc.
 
 **Project Name** <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br />
@@ -64,6 +65,10 @@
 * pom.xml - Contains all dependencies that needs to be dowloaded and plugins. All tests can be run using this file <br />
 
 * testng.xml - TestNG configuration files that has list of test classes that need to be executed <br />
+
+#### To Run using command prompt:
+1. Make sure Maven Path is setup in System Environment variables.
+2. Navigate to folder containing pom.xml file and run the command: "mvn test" or "mvn clean test"
 
 #### You can also directly run the code from Github Folder in Jenkins:
 1. Make sure to have Maven integration installed in Jenkins
